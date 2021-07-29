@@ -1,5 +1,5 @@
 import argparse
-import upstream_dep
+from . import upstream_dep
 parser = argparse.ArgumentParser()
 parser.add_argument('--DEVMODE', action='store_true')
 
