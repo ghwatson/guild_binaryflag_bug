@@ -1,11 +1,11 @@
 - operations:
 
     root_op:
-      main: root_op
+      main: ops.root_op
       flags-dest: args
       flags-import: all
 
     nested_op:
-      main: ops/nested_op
+      main: ops.nested_op
       flags-dest: args
       flags-import: all
